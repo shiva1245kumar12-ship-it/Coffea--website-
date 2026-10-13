@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coffea - Brew On the Rocks | Aligarh</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f2e9;--card:#fffdf8;--tx:#2a1d14;--mut:#7a6a5c;--g:#8a6420;--gold:#b88a2e;--g2:#efe6d6;--line:#d9c9ae;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#130e0b;--card:#1c1511;--tx:#f1e8da;--mut:#a99884;--g:#d4ad63;--gold:#d4ad63;--g2:#261c15;--line:#3b2d22}}
+:root[data-theme="dark"]{--bg:#130e0b;--card:#1c1511;--tx:#f1e8da;--mut:#a99884;--g:#d4ad63;--gold:#d4ad63;--g2:#261c15;--line:#3b2d22}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Poppins,system-ui,sans-serif;line-height:1.6}
+header{background:radial-gradient(ellipse at 50% 0%,#4a3321 0%,#1a120c 65%);color:#f4ead9;text-align:center;padding:72px 20px 56px;border-bottom:1px solid var(--gold)}
+.eb{letter-spacing:.35em;font-size:.7rem;color:#d4ad63;text-transform:uppercase}
+h1{font-family:'Playfair Display',serif;font-size:3.6rem;letter-spacing:.18em;margin:10px 0 0;font-weight:500;color:#f4ead9}
+.orn{width:70px;height:1px;background:#d4ad63;margin:16px auto;position:relative}
+.orn:after{content:"";position:absolute;left:50%;top:-3px;width:7px;height:7px;background:#d4ad63;transform:translateX(-50%) rotate(45deg)}
+header p{margin:0 0 26px;font-family:'Playfair Display',serif;font-style:italic;font-size:1.15rem;color:#e9dcc6}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{background:#d4ad63;color:#1a120c;padding:11px 24px;border-radius:2px;text-decoration:none;font-weight:500;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
+.btn.o{background:transparent;color:#f4ead9;border:1px solid #d4ad63}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;display:flex;gap:6px;overflow-x:auto;padding:12px 14px;border-bottom:1px solid var(--line)}
+nav a{white-space:nowrap;padding:6px 14px;border:1px solid var(--line);color:var(--g);text-decoration:none;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}
+main{max-width:760px;margin:0 auto;padding:10px 18px 30px}
+section{scroll-margin-top:64px}
+h2{font-family:'Playfair Display',serif;font-weight:500;letter-spacing:.06em;color:var(--tx);font-size:1.9rem;margin:44px 0 2px;text-align:center}
+h2:after{content:"";display:block;width:44px;height:1px;background:var(--gold);margin:10px auto 0}
+.sub{color:var(--mut);font-size:.78rem;margin:8px 0 14px;text-align:center;letter-spacing:.08em;text-transform:uppercase}
+.card{background:var(--card);border:1px solid var(--line);padding:8px 20px}
+.it{display:flex;align-items:baseline;gap:6px;padding:11px 0}
+.it b{font-weight:500}.it small{display:block;color:var(--mut);font-size:.76rem;font-style:italic}
+.ld{flex:1;border-bottom:1px dotted var(--line);min-width:12px}
+.pr{font-family:'Playfair Display',serif;font-weight:500;color:var(--g);white-space:nowrap}
+.note{border:1px solid var(--line);padding:14px 18px;font-size:.8rem;margin-top:34px;color:var(--mut);text-align:center}
+.visit{background:var(--card);border:1px solid var(--line);padding:22px;margin-top:14px;text-align:center}
+.visit p{margin:8px 0}
+.visit .btns{justify-content:center!important}
+footer{text-align:center;color:var(--mut);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;padding:24px 16px 36px;border-top:1px solid var(--line)}
+</style></head><body>
+<header><div class="eb">Specialty Coffee &amp; Bites &middot; Aligarh</div><h1>COFFEA</h1><div class="orn"></div><p>Brew On the Rocks</p>
+<div class="btns"><a class="btn" href="#menu-hot">Explore Menu</a><a class="btn o" href="tel:+916398336630">Call</a><a class="btn o" href="https://wa.me/916398336630">WhatsApp</a></div></header>
+<nav id="nav"></nav>
+<main>
+<div id="menu"></div>
+<div class="note">Add-ons @ 39/- : Hazelnut, Irish, Caramel, Espresso, Chocolate, Vanilla, Whipped Cream, Lactose-free milk (on cold drinks &amp; frapresso). Prices are exclusive of taxes.</div>
+<section id="visit"><h2>VISIT US</h2><div class="visit">
+<p><b>Coffea</b><br>Shop no. 101, Great Shopping Mall, Ramghat Rd, near O.L.F School, Begpur, Aligarh, Uttar Pradesh 202001</p>
+<p>Phone: <a href="tel:+916398336630" style="color:var(--g)">6398336630</a></p>
+<div class="btns" style="margin-top:14px"><a class="btn"  href="https://www.google.com/maps/search/?api=1&query=Coffea+Great+Shopping+Mall+Ramghat+Rd+Aligarh">Open in Maps</a><a class="btn" style="background:transparent;color:var(--g);border:1px solid var(--gold)" href="https://wa.me/916398336630">Chat on WhatsApp</a></div></div></section>
+</main>
+<footer>Coffea &middot; Aligarh</footer>
+<script>
+const M=[
+["hot","Hot Serve","Prices: 30ml / 60ml",[["Espresso Shot","79 / 99"],["Cappuccino","99 / 129"],["Cafe Americano","99 / 129"],["Cafe Mocha","119 (30ml)"],["Cafe Latte","119 (60ml)"],["Cinnamon Latte","119 (60ml)"],["Affogato","129 (60ml)"],["Filtered Coffee",69],["Filtered Mocha",99],["Filtered Latte",99],["Filtered Americano",99]]],
+["cold","Cold Coffea","Pre-mix blended with milk",[["Regular Coffea",129],["Hazelnut Coffea",159],["Irish Coffea",159],["Nutella Coffea",179],["Vanilla Coffea",159],["Caramel Coffea",179]]],
+["iced","Cold Serve","Espresso based",[["Iced Espresso",139],["Iced Americano",159],["Iced Mocha",159],["Iced Caramel Macchiato",159],["Iced Cranberry",159],["Iced Vanilla Latte",169],["Iced Irish Latte",169],["Iced Hazelnut Latte",169],["Iced Latte",169],["Iced Flat White",169],["Ice Tea (Lemon, Strawberry, Cranberry, Green Apple, Watermelon)",99]]],
+["frap","Frapresso","Thick blends topped with whipped cream",[["Creame Frapresso",189],["Choco Frapresso",189],["Hazelnut Frapresso",189],["Irish Frapresso",189],["Choco Mint Frapresso",189],["Rose Creame Frapresso",189],["Blueberry Frapresso",189],["Mango Frapresso",189],["Nutella Frapresso",199],["Biscoff Frapresso",199],["Oreo Frapresso",199],["Kit-Kat Frapresso",199],["Choco Munch Frapresso",199],["Brownie Frapresso",209],["Magic Rochers Frapresso",219]]],
+["food","Bites","Sandwiches, toast &amp; more",[["Indian Style Masala Sandwich",119],["Roasted Malai Veg Sandwich",139],["The Runner Exotic Veg Sandwich",149],["Chutney Grilled Cheese Sandwich",149],["Tomato Cheese Pesto Sandwich",169],["Creamy Chilli Cheese Sandwich",169],["Indian Tandoori Paneer Sandwich",169],["Margherita Cheese Toast",109],["Schezwan Cheese Toast",139],["Garlic Cheese Toast",139],["Paneer Bhurji Toast",169],["Paneer Tikka Toast",169],["Exotic Veg Toast",169],["Mumbai Vada Pav",50],["Coffea Brownie",120]]],
+["pasta","Pasta &amp; Macaroni","",[["Red Serve Pasta","spicy veggies &amp; masala|219"],["Pink Serve Pasta","spicy peri peri masala with veggies|249"],["Creamy White Serve Pasta","cheese, cream in tangy masala|249"],["Indi Masala Macaroni",129],["Peri Peri Macaroni",129],["Macaroni in Red Sauce",129],["Chilli Schezwan Macaroni",129],["Hot Chilli Spicy Macaroni",129],["Creamy Cheese Macaroni",189],["Cheese Corn Macaroni",189]]],
+["snack","Fries &amp; Nachos","",[["Salted Fries",109],["Peri Peri Fries",129],["Cheese Fries",129],["Afgani Fries",129],["Tandoori Fries",129],["Saucy Red Sauce Fries",159],["Saucy Chilli Cheese Fries",159],["Saucy Chilli Schezwan Fries",159],["Nachos With Dip","baked nachos with cheese sauce|199"],["Loaded Salsa Cheese Nachos","jalapenos, veggies, sauces &amp; cheese|199"]]]
+];
+const nav=document.getElementById("nav"),menu=document.getElementById("menu");
+M.forEach(([id,t,s,items])=>{
+nav.innerHTML+=`<a href="#menu-${id}">${t}</a>`;
+menu.innerHTML+=`<section id="menu-${id}"><h2>${t.toUpperCase()}</h2><p class="sub">${s}</p><div class="card">`+items.map(([n,p])=>{let d="";if(typeof p==="string"&&p.includes("|")){[d,p]=p.split("|")}return`<div class="it"><span><b>${n}</b>${d?`<small>${d}</small>`:""}</span><i class="ld"></i><span class="pr">&#8377;${p}</span></div>`}).join("")+`</div></section>`});
+nav.innerHTML+=`<a href="#visit">Visit</a>`;
+</script></body></html>
